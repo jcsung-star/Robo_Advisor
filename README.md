@@ -15,7 +15,7 @@ Columbia FinTech Bootcamp Assignment - Module 15
 * [Overview](#overview)
 * [Requirements](#requirements)
 * [Instructions](#instructions)
-* [Demo](#demo)
+* [Images and Demos](#images-and-demos)
 * [License](#license)
 
 ---
@@ -58,7 +58,7 @@ This project leverages **[python version 3.7](https://www.python.org/downloads/)
     - Download and use Lambda Function called lambda_function.py
 ---
 
-## Demo
+## Images and Demos
 
 ### To use the AWS Lex Chatbot, our RoboAdvisor Investment Recommendation:
 
