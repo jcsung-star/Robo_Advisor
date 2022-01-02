@@ -31,13 +31,19 @@ Using AWS Lex, RoboAdvisor was created and designed for clients searching for gu
 
 This project leverages **[python version 3.7](https://www.python.org/downloads/)** with the following packages and modules:
 
-* [datetime](https://docs.python.org/3/library/datetime.html)
+* [datetime](https://docs.python.org/3/library/datetime.html) - The datetime module supplies classes for manipulating dates and times.
 
-* [dateutil](https://dateutil.readthedocs.io/en/stable/index.html)
+* [dateutil](https://dateutil.readthedocs.io/en/stable/index.html) - powerful extensions to datetime by | pip install python-dateutil    
 
-* [AWS Lex](https://aws.amazon.com/lex/) - A service for building conversational interfaces into any application using voice and text. This was used in combination with the functionality created on AWS Lambda.
+* [Create and Activate an AWS Account](https://aws.amazon.com/what-is-aws/)
+    1) Create your account
+    2) Add a payment method
+    3) Verify your phone number
+    4) Choose an AWS support plan
 
-* [AWS Lambda](https://aws.amazon.com/lambda/) - To build the functionality for the tool.
+* [AWS Lex](https://aws.amazon.com/lex/) - Builds chatbots with conversational AI.
+
+* [AWS Lambda](https://aws.amazon.com/lambda/) - Runs code without thinking about servers or clusters.
 
 ---
 
@@ -66,7 +72,7 @@ The data used in this neural network model was from derived from a CSV file call
 ### To use the AWS Lex Chatbot, our RoboAdvisor Investment Recommendation:
 
 Steps with correct information from the beginning
-1. User will input or speak an utterance "I want to invest for my retirement"*
+1. User will input or speak an utterance "I want to invest for my retirement"
 2. User will then be asked for his first name.
 2. User will then be asked for their age. 
 3. User will then be asked for the amount to invest.
