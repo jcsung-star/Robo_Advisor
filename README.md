@@ -60,22 +60,25 @@ This project leverages **[python version 3.7](https://www.python.org/downloads/)
 
 ## Images and Demos
 
-![robo_advisor_bot](Images/robo_advisor_bot.GIF) 
+### Test Bot
+![robo advisor bot](Images/robo_advisor_bot.GIF) 
 
-### To use the AWS Lex Chatbot, our RoboAdvisor Investment Recommendation:
+### Sample of validate_data function of Lambda Function code 
+![lambda_function](Images/lambda_function_sample_of_code.PNG) 
 
-Steps with correct information from the beginning
+### Sample testing of lambda function code 
+![sample test of lambda_function](Images/sample_test_of_lambda_function.PNG) 
+
+### Demo includes inputs errors to reflect false validation results and show correct information 
 1. User will input or speak an utterance "I want to invest for my retirement"
-2. User will then be asked for his first name.
+2. User will then be asked for his first name. 
 2. User will then be asked for their age. 
 3. User will then be asked for the amount to invest.
 4. User will then be asked for their risk tolerance.
 5. User will then be provided their recommended investment allocation.
+![robo demo lambda function](Images/robo_demo_lambda_function.GIF) 
 
-![robo_advisor_bot_demo](Images/robo_advisor_demo.mp4) 
-
-
----
+--- 
 
 ## License
 
