@@ -60,6 +60,8 @@ This project leverages **[python version 3.7](https://www.python.org/downloads/)
 
 ## Images and Demos
 
+![robo_advisor_bot](Images/robo_advisor_bot.GIF) 
+
 ### To use the AWS Lex Chatbot, our RoboAdvisor Investment Recommendation:
 
 Steps with correct information from the beginning
@@ -69,6 +71,9 @@ Steps with correct information from the beginning
 3. User will then be asked for the amount to invest.
 4. User will then be asked for their risk tolerance.
 5. User will then be provided their recommended investment allocation.
+
+![robo_advisor_bot_demo](Images/robo_advisor_demo.mp4) 
+
 
 ---
 
