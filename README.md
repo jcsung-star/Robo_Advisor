@@ -14,8 +14,8 @@ Columbia FinTech Bootcamp Assignment - Module 15
 
 * [Overview](#overview)
 * [Requirements](#requirements)
-* [Data](#data)
-* [Evaluation Report](#evaluation-report)
+* [Instructions](#instructions)
+* [Demo](#demo)
 * [License](#license)
 
 ---
@@ -24,6 +24,7 @@ Columbia FinTech Bootcamp Assignment - Module 15
 
 
 Using AWS Lex, RoboAdvisor was created and designed for clients searching for guidance towards their retirement. 
+
 
 ---
 
@@ -47,28 +48,18 @@ This project leverages **[python version 3.7](https://www.python.org/downloads/)
 
 ---
 
-## Data
+## Instructions
 
-The data used in this neural network model was from derived from a CSV file called emerging_markets_ohlcv.csv:
-
+- ### Configure the initial robo advisor
+    - Sign in to your AWS Management Console, and then create a new custom Amazon Lex bot
+- ### Build and test the robo advisor
+    - Test the RoboAdvisor using downloaded Test Events
+- ### Enhance the robo advisor with an Amazon Lambda function
+    - Download and use Lambda Function called lambda_function.py
 ---
 
-## Installation Guide
+## Demo
 
----
-
-
----
-
-## Usage
-
-### To use the AWS Lambda function:
-
-1. Go to AWS Lambda first. Create a new Lambda function from scratch, and name it recommendPortfolio. Choose Python 3.7 as the runtime programming language.
-
-2. In the online code editor, delete the AWS-generated default lines of code, and then paste the new lambda_function.py that is provided with this file. 
-
----
 ### To use the AWS Lex Chatbot, our RoboAdvisor Investment Recommendation:
 
 Steps with correct information from the beginning
@@ -78,9 +69,6 @@ Steps with correct information from the beginning
 3. User will then be asked for the amount to invest.
 4. User will then be asked for their risk tolerance.
 5. User will then be provided their recommended investment allocation.
-
-
-
 
 ---
 
