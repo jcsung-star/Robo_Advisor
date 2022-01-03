@@ -166,13 +166,13 @@ def get_recommend_portfolio(risk_level):
     """
     # Choose risk levels from None, Low, Medium or High (all are not case insensitive) from the user.
     recommend_portfolio = ""
-    if risk_level == "None" or "none":
+    if risk_level.lower() == "none":
         recommend_portfolio = "100% bonds (AGG), 0% equities (SPY)"
-    elif risk_level == "Low" or "low":
+    elif risk_level.lower() == "low":
         recommend_portfolio = "60% bonds (AGG), 40% equities (SPY)"
-    elif risk_level == "Medium" or "medium":
+    elif risk_level.lower() == "medium":
         recommend_portfolio = "40% bonds (AGG), 60% equities (SPY)"
-    elif risk_level == "High" or "high":
+    elif risk_level.lower() == "high":
         recommend_portfolio = "20% bonds (AGG), 80% equities (SPY)"
         
     return recommend_portfolio

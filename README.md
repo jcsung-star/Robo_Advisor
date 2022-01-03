@@ -65,6 +65,8 @@ This project leverages **[python version 3.7](https://www.python.org/downloads/)
 
 ### Sample of validate_data function of Lambda Function code 
 ![lambda_function](Images/lambda_function_sample_of_code.PNG) 
+![lambda_function_2](Images/lambda_function_sample_of_code_2.PNG)
+
 
 ### Sample testing of lambda function code 
 ![sample test of lambda_function](Images/sample_test_of_lambda_function.PNG) 
